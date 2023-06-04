@@ -1,0 +1,240 @@
+@import "index.scss";
+
+
+
+  
+  /*Aca termina el footer, luego comienza el codigo del html champs*/
+  
+  #navChamp {
+    display: flex;
+    height: 40px;
+    font-size: 13px;
+    justify-content: center;
+    position: relative;
+    border: solid 1px grey;
+  }
+ .pjJugables{
+  white-space: nowrap;
+  padding-left: 20%;
+
+ }
+  .filtroProductos{
+    input{
+      display: none;
+    }
+  }
+  .champUl{
+    padding-top: 10px;
+      li:hover{
+        scale: (1.2);
+      }
+  }
+  .champClass {
+    margin: 0px 30px 0px 0px;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  #searchChamp {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-style: none ;
+  }
+  
+  .champs {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 20px 0px 50px 0px;
+  }
+  
+  .champ {
+    width: 220px;
+  }
+
+  
+  .pChamp {
+    background-color: rgb(6, 28, 37);
+    padding: 15px;
+    margin-top: -4px;
+    color: white;
+  }
+
+
+  @media(max-width:1150px){
+    .champs{
+      flex-wrap: wrap;
+    }
+    .champ{
+      width: 200px;
+    }
+    .pjJugables{
+      text-align: start;
+      white-space: nowrap;
+      padding-left: 20%;
+    }
+  }
+  @media(max-width:992px){
+    .pjJugables{
+      padding-left: 17%;
+    }
+
+    #navChamp{
+      justify-content: flex-end;
+    }
+  }
+ 
+  @media(max-width:768px){
+    .pjJugables{
+      font-size: 1.5rem;
+      padding-left: 15%;
+    }
+
+    #searchChamp{
+      width: 50px;
+    }
+    .champUl{
+      font-size: 12px;
+      
+    }
+
+  }
+
+  @media(max-width:643px){
+    .pjJugables{
+      font-size: 1.3rem;
+    }
+
+    #searchChamp{
+      left: 0%;
+      border: 1px solid black;
+      border-radius: 25%;
+      top: 20%;
+    }
+    .champUl{
+      font-size: 11px;
+    }
+  }
+  @media (max-width:576px){
+    #searchChamp{
+      position: static;
+      width: 120px;
+      height: 25px;
+      border-radius: 0%;
+    }
+    #navChamp{
+      display: block;
+      height: 80px;
+    }
+
+    .champUl{
+      font-size: 13px;
+
+    }
+    .champClass{
+      margin: 0px 20px 0 0;
+    }
+    .busc{
+      margin-left: 0%;
+    }
+    .pjJugables{
+      white-space: pre-wrap;
+      font-size: 1rem;
+      height: 50px;
+      padding-left: 0px;
+    }
+
+  }
+
+  
+  /*Aca termina el html champs, luego inicia el html contact*/
+  
+  .divContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px 40px 0px;
+    color: red;
+  }
+  
+  #b {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 125px;
+    color: white;
+  }
+  
+  #contacto {
+    background-image: url(../Images/fondocontact.jpg);
+    background-size: 1360px 680px;
+    color: white;
+  }
+
+  .contactate{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .mb-3{
+    display: flex;
+    width: 100%;
+  }
+  .formulario{
+    justify-content: center;
+    display: flex;
+  }
+  .btnEnviar{
+    margin-left: 50%;
+  }
+
+@media(max-width:576px){
+  .divContact {
+    label{
+      width: 150px;
+      font-size: 0.8rem;
+    }
+      input{
+        width: 50%;
+        font-size: 10px;
+      }
+
+    textarea{
+      margin-left: 0px;
+      width:50% ;
+      font-size: 10px;
+    }
+  } 
+  #b{
+    padding-bottom: 20px;
+  }
+}
+
+
+
+/*Aca comienza el html we*/
+
+
+.weTitleT{
+  background-color: rgb(61, 61, 61);
+  color: white;
+}
+
+.objetivoT, .popularidadT, .deporteT{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline black 2px;
+
+}
+
+.objetivo, .popularidad, .deporte, .weTitle{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media(max-width:576px){
+  .objetivoT, .popularidadT, .deporteT{
+    font-size: 1.2rem;
+  }
+  .objetivo, .popularidad, .deporte, .weTitle{
+    font-size: 0.8rem;
+  }
+}
