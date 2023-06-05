@@ -238,3 +238,27 @@
     font-size: 0.8rem;
   }
 }
+.nexos{
+  width: 30%;
+  margin: 1%;
+
+}
+.descAqui{
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+    :hover{
+      scale:(1.2);
+      color: blue;
+    }
+}
+
+@media(max-width: 768px){
+    .pGame{
+      font-size: 0.9rem;
+    }
+    ol{
+      font-size: 0.8rem;
+    }
+}

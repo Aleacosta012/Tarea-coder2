@@ -513,5 +513,9 @@ main {
     font-size: 1.8rem;
   }
 }
+.inicio {
+  display: flex;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=index.css.map */
