@@ -267,6 +267,12 @@ main {
   .mainContainer #jugar1 {
     font-size: 80%;
   }
+  .titNot {
+    font-size: 1rem;
+  }
+  .descNot {
+    font-size: 1rem;
+  }
   #secNotDest {
     flex-wrap: wrap;
   }

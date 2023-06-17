@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
   
+    
   }
   header{
     box-sizing: border-box;
@@ -130,7 +131,6 @@ a{
     display: flex;
     flex-direction: column;
   }
-  
   .titNot {
     margin: 2px;
     color: grey;
@@ -282,7 +282,12 @@ a{
       }
 
   }
-
+  .titNot{
+    font-size: 1rem;
+  }
+  .descNot{
+    font-size: 1rem;
+  }
   #secNotDest{
     flex-wrap: wrap;
   }
